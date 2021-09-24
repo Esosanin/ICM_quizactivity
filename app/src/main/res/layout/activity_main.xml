@@ -16,9 +16,9 @@
         android:orientation="vertical"
         android:gravity="center">
         <TextView
+            android:id="@+id/textview_question"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/t_quest"
             android:textSize="20sp"
             android:textColor="@color/black"
             android:textStyle="bold"
@@ -30,17 +30,35 @@
             android:orientation="horizontal"
             android:gravity="center">
             <Button
-                android:id="@+id/btn_true"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="@string/t_true"
-                android:layout_margin="10dp"/>
-            <Button
                 android:id="@+id/btn_false"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="@string/t_false"
                 android:layout_margin="10dp"/>
+            <Button
+                android:id="@+id/btn_true"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/t_true"
+                android:layout_margin="10dp"/>
         </LinearLayout>
+
+        <Button
+            android:id="@+id/btn_next"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/t_next"
+            android:layout_margin="10dp"/>
+
+        <TextView
+            android:id="@+id/textview_points"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:textAlignment="center"
+            android:padding="24dp"
+            android:layout_marginTop="50dp"/>
     </LinearLayout>
 </RelativeLayout>

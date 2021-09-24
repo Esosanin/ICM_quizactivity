@@ -1,6 +1,20 @@
 <resources>
-    <string name="app_name">quizactivity</string>
+    <string name="app_title">GeoQuiz: Majora\'s Mask</string>
     <string name="t_true">Verdadero</string>
     <string name="t_false">Falso</string>
-    <string name="t_quest">¿El cabello y las uñas siguen creciendo despues de la muerte?</string>
+    <string name="t_next">Next</string>
+
+    <string name="r_correct">Respuesta Correcta</string>
+    <string name="r_incorrect">Respuesta Incorrecta</string>
+
+    <string name="question_1">Link se puede transformar en diferentes mounstruos utilizando mascaras.</string>
+    <string name="question_2">Un niño roba una mascara demoniaca.</string>
+    <string name="question_3">La luna cae sobre Gerudo.</string>
+    <string name="question_4">Link posee la Master Sword.</string>
+    <string name="question_5">Link derrota a los 4 jefes de Termina.</string>
+    <string name="question_6">Una niña de una granja es apducida por marcianos.</string>
+    <string name="question_7">Todos estan alterados por el festival que sucedera en 3 días.</string>
+    <string name="question_8">El Fin será en 5 días.</string>
+    <string name="question_9">Link al final de la historia se queda solo.</string>
+    <string name="question_10">Al tocar cierta canción todo se repite, dando comienzo a Link saliendo del Reloj.</string>
 </resources>
